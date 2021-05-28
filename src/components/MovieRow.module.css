@@ -1,0 +1,34 @@
+.movieRow {
+  margin-bottom: 30px;
+}
+
+.movieRow h2 {
+  margin: 0 0 0 30px;
+}
+
+/* o overflow-x hidden é para ele quebrar, cortar a linha para que ele fique tudo na mesma linha, que é para ele não ter o scroll para ir com a tela do lado */
+.movieRowListArea {
+  overflow-x: hidden;
+  padding-left: 30px;
+}
+
+.movieRowList {
+  width: 999999999px;
+}
+
+.movieRowItem {
+  display: inline-block;
+  width: 150px;
+  cursor: pointer;
+}
+
+.movieRowItem img {
+  width: 100%;
+  /* nesse width de 100% eh para a imagem ocupar a largura de 100%, porém no transform scale 0.9 estou dizendo para a imagem ficar com 90% do tamanho que ela possui */
+  transform: scale(0.9);
+  transition: all ease 0.2s;
+}
+
+.movieRowItem:hover img {
+  transform: scale(1);
+}

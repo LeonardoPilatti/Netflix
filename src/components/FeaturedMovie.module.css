@@ -1,0 +1,17 @@
+.featured {
+  height: 100vh;
+}
+
+.featuredVertical {
+  /* width inherit pq esta herdando o tamanho do anterior, no caso do featured */
+  width: inherit;
+  height: inherit;
+  /* esse gradiente eh para ir do bottom para o top, para criar as partes escuras nas imagens e somente até 10% da minha imagem o preto #111 */
+  background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+
+.featuredHorizontal {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to right, #111 30%, transparent 70%);
+}
