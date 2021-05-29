@@ -15,3 +15,22 @@
   height: inherit;
   background: linear-gradient(to right, #111 30%, transparent 70%);
 }
+
+.featuredName {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.featuredInfo {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.featuredPoints {
+  display: inline-block;
+  color: #46d369;
+}
+
+.featuredYear {
+  display: inline-block;
+}
