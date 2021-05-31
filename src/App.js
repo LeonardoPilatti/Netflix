@@ -4,6 +4,7 @@ import Tmdb from './Tmdb';
 import './App.css';
 import FeaturedMovie from './components/FeaturedMovie';
 import { Header } from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   const [movieList, setMovieList] = React.useState([]);
@@ -59,6 +60,7 @@ function App() {
           <MovieRow key={key} title={item.title} items={item.items} />
         ))}
       </section>
+      <Footer />
     </div>
   );
 }
