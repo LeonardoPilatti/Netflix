@@ -42,7 +42,6 @@ function App() {
         setBlackHeader(false);
       }
     };
-    console.log('entrou');
     window.addEventListener('scroll', scrollListener);
 
     return () => {
