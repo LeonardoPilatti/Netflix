@@ -61,3 +61,10 @@
 .movieRowRight {
   right: 0;
 }
+
+@media (max-width: 760px) {
+  .movieRowLeft,
+  .movieRowRight {
+    opacity: 1;
+  }
+}

@@ -61,6 +61,14 @@ function App() {
         ))}
       </section>
       <Footer />
+      {movieList.length <= 0 && (
+        <div className="loading">
+          <img
+            src="https://media1.tenor.com/images/bb74046420c4c992b8cabc6e667abe40/tenor.gif?itemid=21209311"
+            alt="Carregando Netflix"
+          />
+        </div>
+      )}
     </div>
   );
 }
