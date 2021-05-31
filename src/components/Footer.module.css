@@ -1,10 +1,16 @@
-footer {
-  margin: 50px 50px;
+.footer {
+  margin: 50px 30px;
   display: flex;
   justify-content: space-between;
 }
 
-footer p {
+.footer p {
   text-align: center;
   font-size: 16px;
+}
+
+@media (max-width: 760px) {
+  .footer {
+    flex-direction: column;
+  }
 }
