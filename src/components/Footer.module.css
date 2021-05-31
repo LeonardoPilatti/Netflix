@@ -1,0 +1,10 @@
+footer {
+  margin: 50px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  text-align: center;
+  font-size: 16px;
+}
